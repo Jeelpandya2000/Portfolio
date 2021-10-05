@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&family=Montserrat&family=Poppins:ital@1&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.offset::before{
+    display: block;
+    content: "";
+    height: 6rem;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+#home .navbar>.navbar-nav>.navbar-link{
+    color:#fff;
+    padding-left: 80px;
+}
+
+#home >.navbar> .navbar-nav .navbar-link :active,
+#home> .navbar >.navbar-nav .navbar-link :hover{
+    color: violet;
+}
+.img{
+    background-repeat: no-repeat;
+}
+.heading{
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    top: 45%;
+    right: -20%;
+    /* left: 0%; */
+    size: 500px;
+}
+.heading h5{
+    font-size: 3em;
+    font-family: monospace;
+    color: white;
+    font-weight: 300;
+} 
+.heading h1{
+    font-size: 4em;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bolder;
+} 
+#about .btn{
+    border: 2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+#about .btn a{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#about .btn:hover{
+    border: 2px solid #1ebba3;
+    cursor: pointer;
+}
